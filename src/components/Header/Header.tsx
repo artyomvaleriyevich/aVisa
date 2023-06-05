@@ -12,8 +12,10 @@ const Header = () => {
                         <a href="#" className="header__link">Преимущества</a>
                         <a href="#" className="header__link">Консультация</a>
                     </nav>
-                    <a href="tel:+9999999999" className="header__link">+telephone</a>
-                    <a href="mailto:artyom.valeriyevich@gmail.com">test@mail.com</a>
+                    <div className="header__info">
+                        <a target={"_blank"} href="https://api.whatsapp.com/send/?phone=996706228911" className="header__info-tel">+996 (706) 22-89-11</a>
+                        <a href="mailto:test@mail.com" className={'header__info-email'}>test@mail.com</a>
+                    </div>
                 </div>
             </div>
         </header>

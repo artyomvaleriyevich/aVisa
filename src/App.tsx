@@ -1,13 +1,17 @@
+import Footer from "./components/Footer/Footer";
+import VisaSection from "./components/pages/section/visaSection/VisaSection";
 
-import Header from "./components/Header/Header";
+
+
 
 function App() {
 
   return (
     <>
-      <main className="main">
-          <Header/>
-      </main>
+        <main>
+            <VisaSection/>
+        </main>
+        <Footer/>
     </>
   )
 }

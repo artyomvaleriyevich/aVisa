@@ -1,4 +1,46 @@
 .header{
   background: transparent;
-  
+  padding: 40px 0;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__nav{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+  }
+  &__info{
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    &-tel,&-email{
+      font-family: 'Inter',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 28px;
+      color: #DA3B97;
+      transition: 0.3s;
+      &:hover{
+        transition: 0.3s;
+        color: #424242;
+      }
+    }
+  }
+  &__link{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 23px;
+    transition: 0.3s;
+    color: #424242;
+    &:hover{
+      transition: 0.3s;
+      color: #DA3B97;
+    }
+  }
+
 }
