@@ -1,6 +1,6 @@
 .visaSection{
   padding-bottom: 50px;
-  background: url('./public/homeSection/bgSection.png') center/cover no-repeat;
+  background: url('../../../../assets/homeSection/bgSection.png') center/cover no-repeat;
   &__title{
     margin: 200px 0 35px;
     font-family: 'Inter',sans-serif;
@@ -33,7 +33,7 @@
     align-items: center;
     column-gap: 60px;
     border-radius: 20px;
-    background: url("./public/homeSection/bgRow.png") center/cover no-repeat;
+    background: url("../../../../assets/homeSection/bgRow.png") center/cover no-repeat;
   }
   &__card{
     width: calc(33.33333% - 40px);
