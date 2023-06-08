@@ -52,7 +52,7 @@ const WhatNeed = () => {
                     <div className="whatNeed__card">
                         <img src={cardImgFour} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
-                            Сделать фотографию
+                            Сделать фотографию <br/>
                             <span className="whatNeed__card-title-bold">верного формата</span>
 
                         </h3>
@@ -61,7 +61,7 @@ const WhatNeed = () => {
                     <div className="whatNeed__card">
                         <img src={cardImgFive} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
-                            Собрать
+                            Собрать <br/>
                             <span className="whatNeed__card-title-bold">большой перечень  <br/> документов</span>
 
                         </h3>
@@ -70,7 +70,7 @@ const WhatNeed = () => {
                     <div className="whatNeed__card">
                         <img src={cardImgSix} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
-                            Отслеживать днями и ночами, когда на сайте консульства появится
+                            Отслеживать днями и ночами, когда на сайте консульства появится <br/>
                             <span className="whatNeed__card-title-bold">окно записи на собеседование</span>
 
                         </h3>
@@ -79,7 +79,7 @@ const WhatNeed = () => {
                     <div className="whatNeed__card">
                         <img src={cardImgSeven} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
-                            Подготовиться к непростому
+                            Подготовиться к непростому <br/>
                             <span className="whatNeed__card-title-bold">собеседованию с консулом</span>
 
                         </h3>
@@ -88,7 +88,7 @@ const WhatNeed = () => {
                     <div className="whatNeed__card">
                         <img src={cardImgEight} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
-                            Мониторить сайт и отслеживать
+                            Мониторить сайт и отслеживать <br/>
                             <span className="whatNeed__card-title-bold">результаты готовности визы</span>
 
                         </h3>
