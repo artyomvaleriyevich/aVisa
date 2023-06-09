@@ -17,7 +17,7 @@ const WhatNeed = () => {
                 <h3 className="whatNeed__title">Что нужно делать, чтобы получить визу в США самостоятельно</h3>
                 <div className="whatNeed__row">
 
-                    <div className="whatNeed__card">
+                    <div className="whatNeed__cardImg">
                         <img src={cardImgHome} alt="" className="whatNeed__card-image"/>
                     </div>
 
@@ -26,7 +26,7 @@ const WhatNeed = () => {
                         <h3 className="whatNeed__card-title">
                             Правильно заполнить анкету <br/>
                             ds-160 на английском языке, <br/>
-                            <span className="whatNeed__card-title-bold">не допустив ни одной ошибки</span>
+                            <span className="whatNeed__card-title-bold"> не допустив ни одной ошибки</span>
 
                         </h3>
                     </div>
@@ -35,7 +35,7 @@ const WhatNeed = () => {
                         <img src={cardImgTwo} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
                             Оплатить <br/>
-                            <span className="whatNeed__card-title-bold">консульский взнос</span>
+                            <span className="whatNeed__card-title-bold"> консульский взнос</span>
 
                         </h3>
                     </div>
@@ -43,8 +43,8 @@ const WhatNeed = () => {
                     <div className="whatNeed__card">
                         <img src={cardImgThree} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
-                            Зарегистрироваться на сайте посольства США. Прикрепить
-                            <span className="whatNeed__card-title-bold">заполненную анкету и оплаченную квитанцию</span>
+                            Зарегистрироваться на сайте посольства США. Прикрепить <br/>
+                            <span className="whatNeed__card-title-bold"> заполненную анкету и оплаченную квитанцию</span>
 
                         </h3>
                     </div>
@@ -53,7 +53,7 @@ const WhatNeed = () => {
                         <img src={cardImgFour} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
                             Сделать фотографию <br/>
-                            <span className="whatNeed__card-title-bold">верного формата</span>
+                            <span className="whatNeed__card-title-bold"> верного формата</span>
 
                         </h3>
                     </div>
@@ -62,7 +62,7 @@ const WhatNeed = () => {
                         <img src={cardImgFive} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
                             Собрать <br/>
-                            <span className="whatNeed__card-title-bold">большой перечень  <br/> документов</span>
+                            <span className="whatNeed__card-title-bold"> большой перечень  <br/> документов</span>
 
                         </h3>
                     </div>
@@ -70,8 +70,8 @@ const WhatNeed = () => {
                     <div className="whatNeed__card">
                         <img src={cardImgSix} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
-                            Отслеживать днями и ночами, когда на сайте консульства появится <br/>
-                            <span className="whatNeed__card-title-bold">окно записи на собеседование</span>
+                            Отслеживать днями и ночами, когда на сайте консульства появится
+                            <span className="whatNeed__card-title-bold"> окно записи на собеседование</span>
 
                         </h3>
                     </div>
@@ -80,7 +80,7 @@ const WhatNeed = () => {
                         <img src={cardImgSeven} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
                             Подготовиться к непростому <br/>
-                            <span className="whatNeed__card-title-bold">собеседованию с консулом</span>
+                            <span className="whatNeed__card-title-bold"> собеседованию с консулом</span>
 
                         </h3>
                     </div>
@@ -89,7 +89,7 @@ const WhatNeed = () => {
                         <img src={cardImgEight} alt="" className="whatNeed__card-img"/>
                         <h3 className="whatNeed__card-title">
                             Мониторить сайт и отслеживать <br/>
-                            <span className="whatNeed__card-title-bold">результаты готовности визы</span>
+                            <span className="whatNeed__card-title-bold"> результаты готовности визы</span>
 
                         </h3>
                     </div>

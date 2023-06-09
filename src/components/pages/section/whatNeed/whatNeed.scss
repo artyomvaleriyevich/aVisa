@@ -19,10 +19,12 @@
     gap: 130px 100px;
   }
   &__card{
+    padding: 20px;
+    border-radius: 20px;
     &-img{
       width: 85px;
     }
-    width: calc(33.33333% - 86px);
+    width: calc(33.33333% - 70px);
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -40,5 +42,13 @@
     &-image{
       width: 100px;
     }
+    transition: 0.5s;
+    &:hover{
+      transition: 0.5s;
+      box-shadow: 5px 5px 5px 5px #DA3B97;
+    }
+  }
+  &__cardImg{
+    width: calc(33.33333% - 70px);
   }
 }
