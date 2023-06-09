@@ -54,7 +54,7 @@ const Chance = () => {
                 </div>
 
                 <div className="chance__block">
-                    <div className="chance__block-right">
+                    <div className="chance__block-left">
                         <img src={imgHuman} alt="" className="chance__block-img"/>
                     </div>
 
