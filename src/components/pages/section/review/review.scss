@@ -1,0 +1,25 @@
+.review{
+  background: url("./public/bg/Review/bg.png") center/cover no-repeat;
+  width: 100%;
+  padding: 80px 0 70px;
+  &__title{
+    font-family: 'Cormorant Garamond',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 50px;
+  }
+  &__card{
+    width: calc(33.33333% - 32px);
+    height: 500px;
+    background: grey;
+  }
+}

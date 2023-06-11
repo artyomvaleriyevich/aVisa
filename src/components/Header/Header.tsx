@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="header__row">
                     <nav className="header__nav">
                         <a href="#" className="header__link">Стоимость</a>
-                        <a href="#" className="header__link">Преимущества</a>
+                        <a href="#getVisa" className="header__link">Преимущества</a>
                         <a href="#" className="header__link">Консультация</a>
                     </nav>
                     <div className="header__info">

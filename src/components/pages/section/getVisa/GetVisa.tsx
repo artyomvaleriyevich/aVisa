@@ -7,7 +7,7 @@ import imgCardThree from '../../../../assets/getVisa/text.png'
 
 const GetVisa = () => {
     return (
-        <section className={'getVisa'}>
+        <section id={'getVisa'} className={'getVisa'}>
             <div className="container">
                 <h3 className="getVisa__title">С нами получить <br/>
                                                    визу в США - легко</h3>
