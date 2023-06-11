@@ -1,0 +1,77 @@
+.getVisa{
+  background: #DDECF1;
+  padding: 75px 0;
+  &__title{
+    text-align: center ;
+    font-family: 'Cormorant Garamond',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:40px;
+    color: #424242;
+    line-height: 52px;
+  }
+  &__row{
+    margin-top: 60px;
+    display: flex;
+    column-gap: 38px;
+    align-items: center;
+  }
+  &__blockImg{
+    width: 30%;
+    &-blue{
+      font-family: 'Inter',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 27px;
+      line-height: 46px;
+      color: #0045B5;
+    }
+    &-title{
+      font-family: 'Inter',sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 31px;
+      color: #424242;
+    }
+  }
+  &__info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  &__card{
+    background: white;
+    box-shadow: 0 0 10px rgba(69, 69, 69, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px 22px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    &-row{
+      display: flex;
+      flex-direction: column;
+      row-gap: 7px;
+    }
+    &-number{
+      font-family: 'Cormorant Garamond',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 62px;
+    }
+    &-text{
+      font-family: 'Inter',sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 28px;
+      &-bold{
+        font-weight: bold;
+      }
+    }
+  }
+
+}

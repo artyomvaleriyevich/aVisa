@@ -2,7 +2,7 @@ import Footer from "./components/Footer/Footer";
 import VisaSection from "./components/pages/section/visaSection/VisaSection";
 import WhatNeed from "./components/pages/section/whatNeed/WhatNeed";
 import Chance from "./components/pages/section/chance/Chance";
-import ActionVisa from "./components/pages/section/actionVisa/ActionVisa";
+import GetVisa from "./components/pages/section/actionVisa/GetVisa";
 
 
 
@@ -15,7 +15,7 @@ function App() {
             <VisaSection/>
             <WhatNeed/>
             <Chance/>
-            <ActionVisa/>
+            <GetVisa/>
         </main>
         <Footer/>
     </>
