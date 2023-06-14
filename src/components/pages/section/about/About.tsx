@@ -62,12 +62,12 @@ const About = () => {
                         <p className="about__card-info">
                             Если вам необходима срочная запись только
                             на собеседование, то мы запишем вас
-                            в кратчайшие сроки на него.*
-                            <span className="about__card-grey">
+                            в кратчайшие сроки на него.* <br/> <br/>
+                        </p>
+                        <span className="about__card-grey">
                                 *мы не несем ответственность за прохождение
                                 собеседования в этом случае
                             </span>
-                        </p>
                     </div>
 
                     <div className="about__card">
