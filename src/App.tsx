@@ -5,6 +5,7 @@ import Chance from "./components/pages/section/chance/Chance";
 import GetVisa from "./components/pages/section/getVisa/GetVisa";
 import Review from "./components/pages/section/review/Review";
 import BuyVisa from "./components/pages/section/buyVisa/BuyVisa";
+import About from "./components/pages/section/about/About";
 
 
 
@@ -20,6 +21,7 @@ function App() {
             <GetVisa/>
             <Review/>
             <BuyVisa/>
+            <About/>
         </main>
         <Footer/>
     </>
