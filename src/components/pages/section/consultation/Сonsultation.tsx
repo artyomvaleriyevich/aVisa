@@ -1,8 +1,13 @@
 import './consultation.scss'
 
-const Consultation = () => {
+interface IConsultation  {
+    statusPopup:boolean,
+    setStatusPopup:(a: boolean) => void
+}
+
+const Consultation = ({setStatusPopup,statusPopup}:IConsultation) => {
     return (
-        <section className={'consultation'}>
+        <section id={'consultation'}  className={'consultation'}>
             <div className="container">
                 <div className="consultation__row">
 
@@ -12,7 +17,7 @@ const Consultation = () => {
                             <span className="consultation__card-title-blue"> бесплатную личную консультацию </span>
                             от основателя компании "Visa to USA"
                         </p>
-                        <button className="consultation__card-btn" type={"button"}>Получить Консультацию</button>
+                        <button onClick={()=> setStatusPopup(!statusPopup)} className="consultation__card-btn" type={"button"}>Получить Консультацию</button>
                     </div>
 
                     <div className="consultation__image">

@@ -1,0 +1,54 @@
+.popup{
+  width: 600px;
+  background: white;
+  border-radius: 20px;
+  padding: 35px 40px;
+  &__title{
+    text-align: center;
+    font-family: 'Cormorant Garamond',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #424242;
+  }
+  &__subtitle{
+    margin: 15px 0;
+    text-align: center;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #424242;
+  }
+  &__form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    &-input{
+      outline: none;
+      border: 1px solid #424242;
+      border-radius: 5px;
+      padding: 20px 15px;
+
+      font-family: 'Inter',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      color: #424242;
+    }
+    &-btn{
+      padding: 20px 0;
+      border-radius: 12px;
+      background: #DA3B97;
+      color: white;
+      font-family: 'Inter',sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 13px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

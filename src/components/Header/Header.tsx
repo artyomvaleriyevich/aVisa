@@ -8,9 +8,9 @@ const Header = () => {
             <div className="container">
                 <div className="header__row">
                     <nav className="header__nav">
-                        <a href="#" className="header__link">Стоимость</a>
+                        <a href="#buyVisa" className="header__link">Стоимость</a>
                         <a href="#getVisa" className="header__link">Преимущества</a>
-                        <a href="#" className="header__link">Консультация</a>
+                        <a href="#consultation" className="header__link">Консультация</a>
                     </nav>
                     <div className="header__info">
                         <a target={"_blank"} href="https://api.whatsapp.com/send/?phone=996706228911" className="header__info-tel">+996 (706) 22-89-11</a>

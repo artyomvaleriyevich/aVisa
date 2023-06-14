@@ -1,8 +1,15 @@
 import './buyVisa.scss'
 
-const BuyVisa = () => {
+
+interface IBuyVisa {
+    statusPopup:boolean,
+    setStatusPopup:(a: boolean) => void
+}
+
+
+const BuyVisa = ({setStatusPopup,statusPopup}:IBuyVisa) => {
     return (
-        <section className={'buyVisa'}>
+        <section id={'buyVisa'} className={'buyVisa'}>
             <div className="container">
                 <h2 className="buyVisa__title">
                     Сколько стоит получить <br/>
@@ -23,7 +30,7 @@ const BuyVisa = () => {
 
                         <p className="buyVisa__card-price">Стоимость: 20 000 ₽*</p>
 
-                        <button className="buyVisa__card-btn">Заказать</button>
+                        <button onClick={()=> setStatusPopup(!statusPopup)} className="buyVisa__card-btn">Заказать</button>
                     </div>
 
                     <div className="buyVisa__card">
@@ -39,7 +46,7 @@ const BuyVisa = () => {
 
                         <p className="buyVisa__card-price">Стоимость: 20 000 ₽*</p>
 
-                        <button className="buyVisa__card-btn">Заказать</button>
+                        <button onClick={()=> setStatusPopup(!statusPopup)} className="buyVisa__card-btn">Заказать</button>
                     </div>
 
                     <div className="buyVisa__card">
@@ -55,7 +62,7 @@ const BuyVisa = () => {
 
                         <p className="buyVisa__card-price">Стоимость: 20 000 ₽*</p>
 
-                        <button className="buyVisa__card-btn">Заказать</button>
+                        <button onClick={()=> setStatusPopup(!statusPopup)} className="buyVisa__card-btn">Заказать</button>
                     </div>
 
 

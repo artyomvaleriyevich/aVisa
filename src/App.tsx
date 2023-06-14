@@ -7,26 +7,31 @@ import Review from "./components/pages/section/review/Review";
 import BuyVisa from "./components/pages/section/buyVisa/BuyVisa";
 import About from "./components/pages/section/about/About";
 import Consultation from "./components/pages/section/consultation/Сonsultation";
+import Popup from "./components/Popup/Popup";
+import {useState} from "react";
 
 
 
 
 function App() {
 
+    const [statusPopup,setStatusPopup] = useState(false)
+
+
   return (
     <>
         <main>
-            <VisaSection/>
+            <VisaSection statusPopup={statusPopup} setStatusPopup={setStatusPopup}/>
             <WhatNeed/>
             <Chance/>
             <GetVisa/>
             <Review/>
-            <BuyVisa/>
+            <BuyVisa statusPopup={statusPopup} setStatusPopup={setStatusPopup}/>
             <About/>
-            <Consultation/>
+            <Consultation statusPopup={statusPopup} setStatusPopup={setStatusPopup}/>
         </main>
         <Footer/>
-
+        <Popup statusPopup={statusPopup} setStatusPopup={setStatusPopup}/>
     </>
   )
 }

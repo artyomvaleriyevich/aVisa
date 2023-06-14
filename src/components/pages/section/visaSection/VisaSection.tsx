@@ -1,7 +1,12 @@
 import './visaSection.scss'
 import Header from "../../../Header/Header";
 
-const VisaSection = () => {
+interface IVisaSection {
+    statusPopup:boolean,
+    setStatusPopup:(a: boolean) => void
+}
+
+const VisaSection = ({statusPopup,setStatusPopup}:IVisaSection) => {
     return (
         <div className={'visaSection'}>
             <div className="container">
@@ -11,7 +16,7 @@ const VisaSection = () => {
                     визы в США <span className="visaSection__title-bold">уже сегодня</span>
                 </p>
 
-                <button className="visaSection__btn" type={'button'}>ХОЧУ ВИЗУ В США</button>
+                <button onClick={()=> setStatusPopup(!statusPopup)} className="visaSection__btn" type={'button'}>ХОЧУ ВИЗУ В США</button>
 
                 <div className="visaSection__row">
 
